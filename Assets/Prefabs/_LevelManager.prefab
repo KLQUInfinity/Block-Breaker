@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1237780864069244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4403210383800432}
+  - component: {fileID: 114202794100850858}
+  m_Layer: 0
+  m_Name: _LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4403210383800432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237780864069244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114202794100850858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237780864069244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1a1810f7fd4de4fa6c97111a04c2c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brick: {fileID: 1243309220992442, guid: 7047ef6ffcc9755429ecb5b30aaf01ef, type: 3}
+  paddle: {fileID: 1419098043912248, guid: 09a9db630ca1e5d45a5b7d7bb919f865, type: 3}
+  brickParticles: {fileID: 1087140951671632, guid: f864dc919a9a8e742a9021fbe1fc9cac,
+    type: 3}
+  deathParticles: {fileID: 1032909811818834, guid: ebcca676f06d3b54cb737666562c001d,
+    type: 3}
+  rows: 9
+  columns: 6
+  xStart: -6.25
+  xShift: 2.5
+  yStart: 8
+  yShift: 1.5
+  ballInitialVelocity: 600
+  paddleSpeed: 2
+  minPaddle_xPos: -8
+  maxPaddle_xPos: 8
+  BrickNum: 0
+  BallInPlay: 0
+  Lifes: 3
+  moveSlider: {fileID: 0}
+  startBtn: {fileID: 0}
+  PlayerPaddle: {fileID: 0}
+  PlayerBall: {fileID: 0}
